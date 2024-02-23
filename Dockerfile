@@ -16,5 +16,5 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-#CMD python app.py
-CMD DB_USERNAME="postgres" DB_PASSWORD="wFomvhjHcl" python app.py
+CMD python app.py
+#CMD DB_USERNAME="postgres" DB_PASSWORD="wFomvhjHcl" python app.py
